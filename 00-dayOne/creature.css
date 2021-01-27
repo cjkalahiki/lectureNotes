@@ -1,0 +1,446 @@
+body {
+    background-image: radial-gradient(rgb(88, 190, 216), rgb(110, 96, 134));
+}
+
+.bee {
+    margin: auto;
+}
+
+#flowerPetalOne {
+    background-color:rgb(91, 58, 148);
+    
+    height: 20em;
+    width: 12em;
+
+    position: absolute;
+    top: 0;
+    left: 8em;
+    bottom: 0;
+    right: 0;
+
+    transform: rotate(40deg);
+
+    z-index: 0;
+
+    margin: auto;
+
+    border-radius: 60%;
+
+    box-shadow: 0 -1em rgb(187, 170, 228);
+}
+
+#flowerPetalTwo {
+    background-color:rgb(91, 58, 148);
+    
+    height: 20em;
+    width: 12em;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 10em;
+
+    transform: rotate(-40deg);
+
+    z-index: 0;
+
+    margin: auto;
+
+    border-radius: 60%;
+
+    box-shadow: 0 -1em rgb(187, 170, 228);
+}
+
+#flowerPetalThree {
+    background-color:rgb(91, 58, 148);
+    
+    height: 20em;
+    width: 12em;
+
+    position: absolute;
+    top: 17em;
+    left: 8em;
+    bottom: 0;
+    right: 0;
+
+    transform: rotate(130deg);
+
+    z-index: 0;
+
+    margin: auto;
+
+    border-radius: 60%;
+
+    box-shadow: 0 -1em rgb(187, 170, 228);
+}
+
+#flowerPetalFour {
+    background-color:rgb(91, 58, 148);
+    
+    height: 20em;
+    width: 12em;
+
+    position: absolute;
+    top: 17em;
+    left: -10em;
+    bottom: 0;
+    right: 0;
+
+    transform: rotate(-130deg);
+
+    z-index: 0;
+
+    margin: auto;
+
+    border-radius: 60%;
+
+    box-shadow: 0 -1em rgb(187, 170, 228);
+}
+
+#flowerCenter {
+    background-color:rgb(226, 211, 122);
+
+    height: 10em;
+    width: 10em;
+
+    position: absolute;
+    top: 8em;
+    left: 0;
+    bottom: 0;
+    right: 0.5em;
+
+    z-index: 1;
+    margin: auto;
+
+    border-radius: 80%;
+}
+
+#stem {
+    background-color: seagreen;
+
+    height: 200em;
+    width: 2em;
+
+    border: solid rgb(61, 83, 28);
+
+    position: absolute;
+    top: 200em;
+    left: 0;
+    bottom: 0;
+    right: 1em;
+
+    margin: auto;
+
+    z-index: -2;
+}
+
+#soil {
+    background-color: rgb(58, 38, 9);
+
+    height: 10em;
+    width: 40em;
+
+    position: absolute;
+    top: 400em;
+    left: 0;
+    bottom: 0;
+    right: 1em;
+
+    margin: auto;
+    z-index: 0;
+
+    border-radius: 100% 100% 0 0;
+}
+
+#bodyShape {
+    background-color: rgb(226, 211, 122);
+
+    height: 15em;
+    width: 20em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 20em;
+    right: 40em;
+
+    margin: auto;
+
+    border-radius: 50% 50% 40% 40%;
+
+    z-index: 1;
+    
+    box-shadow: 1em .4em 10px black;
+}
+
+#bodyBorder {
+    border: solid 8px rgb(226, 211, 122);
+
+    height: 14em;
+    width: 20em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 20em;
+    right: 40em;
+
+    margin: auto;
+
+    border-radius: 50% 50% 40% 40%;
+
+    z-index: 3;
+}
+
+#eyeLeft {
+    background-color: black;
+
+    height: 1em;
+    width: 1em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 21em;
+    right: 30em;
+
+    border-radius: 100%;
+
+    margin: auto;
+
+    z-index: 2;
+}
+
+#eyeRight {
+    background-color: black;
+
+    height: 1em;
+    width: 1em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 21em;
+    right: 25em;
+
+    border-radius: 100%;
+
+    margin: auto;
+
+    z-index: 2;
+}
+
+#stripeOne {
+    height: 13em;
+    width: 12.5em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 19.2em;
+    right: 41em;
+
+    border: solid 1em #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(-90deg);
+
+    margin: auto;
+
+    z-index: 2;
+}
+
+#stripeTwo {
+    height: 13em;
+    width: 14.9em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 19.6em;
+    right: 35em;
+
+    border: solid 1em #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(-90deg);
+
+    margin: auto;
+
+    z-index: 2;
+}
+
+#stripeThree {
+    height: 13em;
+    width: 15.5em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 19.94em;
+    right: 28em;
+
+    border: solid 1em #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(-90deg);
+
+    margin: auto;
+
+    z-index: 2;
+}
+
+#stockLeft {
+    height: 13em;
+    width: 8em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 24em;
+    right: 44em;
+
+    border: solid 10px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(45deg);
+
+    margin: auto;
+
+    z-index: 3;
+}
+
+#nubLeft {
+    background-color: black;
+
+    width: 2em;
+    height: 2em;
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 36.5em;
+    right: 40em;
+
+    margin: auto;
+
+    z-index: 4;
+
+    border-radius: 100%;
+}
+
+#stockRight {
+    height: 13em;
+    width: 8em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 24em;
+    right: 10em;
+
+    border: solid 10px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(-45deg);
+
+    margin: auto;
+
+    z-index: 0;
+}
+
+#nubRight {
+    background-color: black;
+
+    width: 2em;
+    height: 2em;
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 36.5em;
+    right: 13em;
+
+    margin: auto;
+
+    z-index: 4;
+
+    border-radius: 100%;
+}
+
+#smile {
+    height: 13em;
+    width: 3em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 30em;
+    right: 27em;
+
+    border: solid 10px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 120%/100px 100px 0 0;
+
+    transform: rotate(180deg);
+
+    margin: auto;
+
+    z-index: 4;
+}
+
+#wingBehind {
+  background-color: rgb(226, 211, 122);
+  height: 5em;
+  width: 5em;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 38em;
+  right: 37em;
+  
+  
+  border: solid black;
+  border-color: #000 #000 transparent #000;
+  border-radius: 120%/100px 100px 0 0;
+  
+  margin: auto;
+  
+  transform: rotate(30deg);
+  
+  z-index: 0;
+}
+
+#wingFront {
+  background-color: rgb(226, 211, 122);
+  height: 5em;
+  width: 5em;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 38em;
+  right: 48em;
+  
+  
+  border: solid black;
+  border-color: #000 #000 transparent #000;
+  border-radius: 120%/100px 100px 0 0;
+  
+  margin: auto;
+  
+  transform: rotate(-30deg);
+  
+  z-index: 3;
+  
+  box-shadow: 0 .5em 10px black;
+}

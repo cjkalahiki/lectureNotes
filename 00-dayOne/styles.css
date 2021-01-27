@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(207, 100, 100);
+}
+
+.circle {
+    background-color: white;
+    
+    height: 45em; /* em is similar to px */
+    width: 45em;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    /* margin auto centers the div by applying an even margin around all sides of element */
+    margin: auto; 
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px black; /* the first two values are the x and y values, last value is the blur value */
+}
+
+.topBun {
+    background-color: tan;
+
+    height: 5.5em;
+    width: 28em;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 15em;
+    right: 0;
+
+    margin: auto;
+
+    border-radius: 40% 40% 0 0;
+}
+
+.ketchup {
+    background-color: red;
+
+    height: 2em;
+    width: 28em;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 6.3em;
+    right: 0;
+
+    margin: auto;
+}
+
+.meat {
+    background-color: rgb(59, 50, 15);
+
+    height: 5em;
+    width: 28em;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -2em;
+    right: 0;
+
+    margin: auto;
+
+    border-radius: 20%;
+}
+
+.bottomBun {
+    background-color: tan;
+
+    height: 5.5em;
+    width: 28em;
+
+    position: absolute;
+    top: 14em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+
+    border-radius: 0 0 40% 40%;
+}
